@@ -21,9 +21,9 @@
 
 <div class="box">
 
-    <img src="/Bolt-Logo.png" alt="Lightning Bolt" class="bolt" style="width: 20vw;">
+    <img src="/Bolt-Logo.png" alt="Lightning Bolt" id="bolt" style="width: 20vw; text-align: center;">
 
-        <p>LOADING...</p>
+        <p style="text-align: center;">LOADING...</p>
 </div>
 
 
@@ -142,7 +142,7 @@
     <script>
         $(window).on("load", function (e) {
             $(".box").delay(2000).fadeOut(1000);
-            $(".bolt").delay(2000).fadeOut(1000);
+            $("#bolt").delay(2000).fadeOut(1000);
         });
     </script>
 

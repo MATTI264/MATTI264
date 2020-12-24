@@ -42,28 +42,36 @@ body.viewport-lg {
     background-color: rgb(4, 8, 8);
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: relative;
     z-index: 600;
     color: rgb(240, 236, 0);
     padding-top: 2%;
     font-size: 1.5em;
     font-family: sans-serif;
     font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.bolt {
-    
+#bolt {
     transform: translate(-50%, -50%);
     animation: ro 2s infinite;
     z-index: 1;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 10%;
-    margin-left: 20vw;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-right: -50%;
 }
+
+.box p {
+    margin-top: 10vh;
+    padding-top: 5vh;
+    position: relative;
+}
+
 
 /*
 @keyframes ro {
