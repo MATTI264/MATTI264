@@ -10,6 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" media="screen and (min-device-width: 375px) and (max-width: 800px)" href="/375.css" />
 </head>
 
 
@@ -42,15 +44,15 @@
 
                 <div class="links">
                     <div class="dropdown">
-                        <button class="dropbtn">
+                        <div class="dropbtn">
                             <img src="/bars-solid-white.png" alt="3 Lines" class="Lines">
-                        </button>
+                        </div>
 
                         <div class="dropdown-content">
                             <button><a href="index.html">HOME</a></button>
                             <button><a href="#">ABOUT</a></button>
                             <button><a href="#">PHOTOGRAPHY</a></button>
-                        </div>    
+                        </div>
                     </div>
                 </div>
 
@@ -136,10 +138,17 @@
 
     </footer>
 
+
     <script>
         $(window).on("load", function (e) {
             $(".box").delay(2000).fadeOut(1000);
             $(".bolt").delay(2000).fadeOut(1000);
+        });
+    </script>
+
+    <script>
+        $(".dropbtn").click(function(){
+          $(".dropdown-content").toggle();
         });
     </script>
 

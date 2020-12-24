@@ -14,11 +14,13 @@ body {
     background-image: url('/CrownBG1.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100vw 100vh;
-    background-position: 0px 0px;
+    background-size: auto 100vh;
+    background-position: -540px 0px;
     background-position: fixed;
     background-color: rgb(4, 8, 8);
 }
+
+
 
 
 .box {
@@ -33,9 +35,11 @@ body {
 }
 
 .bolt {
-    width: 5vw;
+    width: 20vw;
     display: flex;
-    margin-left: 5%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    ;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -60,13 +64,14 @@ body {
 .box p {
     color: rgb(240, 236, 0);
     padding-top: 2%;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: sans-serif;
     font-weight: bold;
     width: 100vw;
     display: flex;
     justify-content: center;
 }
+
 
 
 header {
@@ -92,7 +97,7 @@ nav {
 }
 
 .crown-logo {
-    height: 40px;
+    height: 35px;
     width: auto;
 }
 
@@ -102,6 +107,8 @@ nav {
     transition: all 0.3s ease-in-out 0s;
 }
 
+
+
 .nav-links {
     display: flex;
     width: 100%;
@@ -109,7 +116,7 @@ nav {
 
 .links {
     position: absolute;
-    margin-left: 70%;
+    margin-left: 0%;
     text-transform: uppercase;
     overflow: hidden;
 }
@@ -138,54 +145,63 @@ nav {
 .dropdown button {
     background-color: transparent;
     border-color: transparent;
-    display: inline;
-    justify-content: center;
 }
 
 .dropbtn img {
     height: 30px;
     width: auto;
-    display: none;
+    display: inline;
+    float: right;
+    margin-left: 85%;
+    position: fixed;
 }
 
 .dropdown-content {
-    display: inline-flex;
-    width: 50%;
-    justify-content: space-between;
+    display: none;
+    width: 40%;
+    height: auto;
+    padding-bottom:2%;
+    color: white;
+    z-index: 200;
+    justify-content: center;
+    position: fixed;
+    margin-left: 60vw;
+    margin-top: 7%;
+    background: rgb(4, 8, 8);
 }
 
 .dropdown-content button {
-    padding-left: 5%;
-    padding-right: 5%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
 }
 
 .social-btn {
     margin-left: 90%;
     position: absolute;
     margin-top: 0.5%;
+    display: none;
 }
 
 .social-btn button {
     background-color: transparent;
     border-color: transparent;
     color: white;
-    display: inline;
+    display: none;
     justify-content: space-evenly;
 }
 
-.social-btn button:hover {
-    opacity: 0.7;
-}
 
-.twitch-img {
-    height: 40px;
-    width: auto;
-}
 
-.twitter-img {
-    height: 40px;
-    width: auto;
-}
 
 main {
     margin-left: 10%;
@@ -199,21 +215,23 @@ main {
 }
 
 .p1 {
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: white;
     -webkit-text-fill-color: transparent;
-    font-size: 5em;
+    font-size: 4em;
     padding: 0;
     text-align: center;
-    margin: 0;
+    margin-top: 20vh;
 }
 
 .p2 {
-    font-size: 4em;
-    margin-top: 4%;
+    font-size: 3em;
+    margin-top: 10vh;
     text-align: center;
 }
 
+
+/*
 
 .About-Section {
     color: white;
@@ -369,3 +387,5 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+*/
