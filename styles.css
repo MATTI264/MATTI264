@@ -58,7 +58,7 @@ body {
 }
 
 .box p {
-    color: rgb(216, 0, 205);
+    color: rgb(240, 236, 0);
     padding-top: 2%;
     font-size: 1em;
     font-family: sans-serif;
@@ -127,7 +127,7 @@ nav {
 
 .links a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 3, 196);
 }
 
 .links a:hover {
