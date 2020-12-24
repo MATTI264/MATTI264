@@ -30,11 +30,12 @@ body.modal-open {
     overflow: hidden;
     position: fixed;
 }
-
-/* Block scrolling for desktop */
+/*
+ Block scrolling for desktop */ 
 body.viewport-lg {
     position: absolute; 
 }
+*/
 
 
 
@@ -47,8 +48,6 @@ body.viewport-lg {
     justify-content: center;
     align-items: center;
     z-index: 100;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .bolt {
@@ -56,8 +55,6 @@ body.viewport-lg {
     display: flex;
     margin-left: 12%;
     margin-bottom: 5%;
-    overflow-x: hidden;
-    overflow-y: scroll;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -107,8 +104,6 @@ nav {
     font-family: sans-serif;
     font-weight: bold;
     width: 100vw;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .logo {
@@ -232,8 +227,6 @@ main {
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .p1 {
@@ -253,8 +246,6 @@ main {
 }
 
 
-/*
-
 .About-Section {
     color: white;
     font-family: "Oswald", sans-serif;
@@ -264,37 +255,39 @@ main {
     background-size: 100% auto;
     background-position: 0px 55%;
     background-position: absolute;
+    background-color: rgb(4, 8, 8);
 }
 
 .about {
-    width: 60vw;
-    height: 45vh;
-    margin-left: 20vw;
+    width: 90vw;
+    height: 35vh;
+    margin-left: 5vw;
     position: relative;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 1px 1px #000000;
 }
 
 .p3 {
-    font-size: 4em;
+    font-size: 2em;
     padding: 0;
-    padding-top: 6vh;
+    padding-top: 8vh;
     margin: 0;
     text-align: center;
     font-weight: 700;
 }
 
 .p4-section {
-    padding-top: 4vh;
+    padding-top: 1vh;
 }
 
 .p4 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding: 0;
-    padding-top: 2vh;
+    padding-top: 1vh;
     margin: 0;
     text-align: center;
     font-weight: 200;
 }
+
 
 .Photo-Section {
     background-color: rgb(4, 8, 8);
@@ -313,9 +306,8 @@ main {
 
 .p5 {
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     padding: 0;
-    padding-top: 3vh;
     padding-bottom: 2vh;
     margin: 0;
     text-align: center;
@@ -329,6 +321,8 @@ main {
 #img1:hover {
     opacity: 0.5;
 }
+
+/*
 
 footer {
     background-color: rgb(4, 8, 8);
