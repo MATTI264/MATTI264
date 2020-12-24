@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/CrownLogo.png" />
+    <title>MATTI264</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+</head>
+
+
+<!-- Page Pre-loader -->
+
+<div class="box" id="box">
+
+    <img src="/Bolt-Logo.png" alt="Lightning Bolt" class="bolt">
+
+    <div>
+        <p class="loading-screen">LOADING...</p>
+    </div>
+</div>
+
+<body>
+
+
+
+    <header>
+        <nav>
+
+            <div class="nav-links">
+
+                <div class="logo">
+                    <a href="index.html"><img src="/CrownLogo.png" alt="" class="crown-logo"></a>
+                </div>
+
+                <div class="links">
+
+                    <button><a href="index.html">HOME</a></button>
+                    <button><a href="#">ABOUT</a></button>
+                    <button><a href="#">PHOTOGRAPHY</a></button>
+
+                </div>
+
+                <div class="social-btn">
+                    <button href="#"><a href="https://www.twitch.tv/m4tti264/"><img src="/Twitch-Icon.png" alt=""
+                                class="twitch-img"></a></button>
+                    <button href="#"><a href="https://twitter.com/MATTI264"><img src="/Twitter-Icon.png" alt=""
+                                class="twitter-img"></a></button>
+                </div>
+
+            </div>
+
+        </nav>
+        <main>
+
+            <p class="p1">Hi I'm Matt</p>
+            <p class="p2">Streamer, Photographer and Graphic Designer</p>
+
+        </main>
+    </header>
+
+    <section class="About-Section">
+
+        <!-- Need to add an about section - Maybe from Twitch description -->
+
+        <div class="about">
+            <p class="p3">ABOUT MATT</p>
+            <div class="p4-section">
+                <p class="p4">I’m Matt, 22 from the UK.</p>
+                <p class="p4">I mostly play FPS and Racing games but any game suggestions are welcome!</p>
+                <p class="p4">Come join the community discord, as I will do games with viewers from time to time.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="Photo-Section">
+
+        <p class="p5">PHOTOGRAPHY</p>
+
+        <div class="Photography-Section">
+            <img id="img1" src="/Aston-Martin-Vantage.jpg" alt="Vantage">
+            <img id="img1" src="/Tesla-Roadster.jpg" alt="Roadster">
+            <img id="img1" src="/Lambo-SVJ.jpg" alt="SVJ">
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-logo">
+            <a href="index.html"><img src="/CrownLogo.png" alt="" class="crown-logo-footer"></a>
+        </div>
+
+        <div class="footer-links">
+
+            <button><a href="index.html">HOME</a></button>
+            <button><a href="#">ABOUT</a></button>
+            <button><a href="#">PHOTOGRAPHY</a></button>
+
+        </div>
+
+
+        <!--
+        <div class="social-icons">
+
+            <a href="https://twitter.com/MATTI264"><img src="/Images/Website-Icons/Twitter-Icon.png" alt="" class="twittericon"></a>
+            <a href=""><img src="/Images/Website-Icons/Behance-Icon.png" alt="" class="behanceicon"></a>
+            <a href="https://www.twitch.tv/m4tti264/"><img src="/Images/Website-Icons/Twitch-Icon.png" alt="" class="twitchicon"></a>
+
+        </div> -->
+
+        <div class="footer-line">
+
+            <!-- insert Line under social icons -->
+
+        </div>
+
+        <div class="footer-copy">
+            <p>Copyright &copy; 2020. All rights reserved | Matt Roberts</p>
+        </div>
+
+    </footer>
+
+    <script>
+        $(window).on("load", function (e) {
+            $(".box").delay(2000).fadeOut(1000);
+            $(".bolt").delay(2000).fadeOut(1000);
+        });
+    </script>
+
+</body>
+
+</html>
