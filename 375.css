@@ -64,6 +64,7 @@ body.viewport-lg {
     left: 50%;
     position: absolute;
     margin-right: -50%;
+    width: 20vh;
 }
 
 .box p {
