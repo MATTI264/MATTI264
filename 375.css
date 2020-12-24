@@ -25,6 +25,16 @@ body {
     overflow-y: scroll;
 }
 
+/* block scrolling for mobile */
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+/* Block scrolling for desktop */
+body.viewport-lg {
+    position: absolute; 
+}
 
 
 
