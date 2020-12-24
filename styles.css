@@ -109,8 +109,9 @@ nav {
 
 .links {
     position: absolute;
-    margin-left: 71%;
+    margin-left: 70%;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 .links button {
@@ -134,9 +135,35 @@ nav {
     color: rgb(240, 236, 0);
 }
 
+.dropdown button {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(240, 236, 0);
+    display: inline;
+    justify-content: center;
+}
+
+.dropbtn img {
+    height: 30px;
+    width: auto;
+    display: none;
+}
+
+.dropdown-content {
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.dropdown-content button {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .social-btn {
     margin-left: 90%;
-    position: relative;
+    position: absolute;
+    margin-top: 0.5%;
 }
 
 .social-btn button {
