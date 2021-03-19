@@ -1,0 +1,73 @@
+html {
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 82, 121);
+}
+
+main {
+    width: 40vw;
+    height: 40vh;
+}
+
+.contact-form {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 27vw;
+    height: 40vh;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 5vh;
+    padding-top: 3%;
+    background-color: rgb(0, 173, 226);
+}
+
+form p {
+    display: block;
+    width: 100%;
+    font-size: 4vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input {
+    display: block;
+    width: 15vw;
+    height: 2vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1vh;
+}
+
+textarea {
+    display: block;
+    width: 15vw;
+    padding-top: 2%;
+    margin-top: 60%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.form-button {
+    display: block;
+    text-align: center;
+    width: 8vw;
+    height: 3vh;
+    margin: auto;
+    margin-top: 10px;
+}
